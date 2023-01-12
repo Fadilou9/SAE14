@@ -12,8 +12,9 @@
     {{
       encore_entry_link_tags("app")
     }}
-    <link rel="stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css" {% endblock %}
-    {% block javascripts %}
+    <link rel="stylesheet"
+    href="https://bootswatch.com/5/cerulean/bootstrap.min.css" {% endblock %} {%
+    block javascripts %}
     {{
       encore_entry_script_tags("app")
     }}
@@ -21,8 +22,9 @@
   </head>
   <body>
     {% block header %}
-     {{ include('partial/_header.html.twig') }}
+    {{ include("partial/_header.html.twig") }}
+    {% endblock %} {% block body %}
+    {{ include("partial/style.CSS") }}
     {% endblock %}
-    {% block body %}{% endblock %}
   </body>
 </html>
