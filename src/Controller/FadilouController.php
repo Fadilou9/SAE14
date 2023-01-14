@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class FadilouController extends AbstractController
 {
-    #[Route('/', 'home.index', methods:['GET'])]
+    #[Route('/', name: 'templates')]
     public function index(): Response
     {
         return $this->render('home.html.twig');
