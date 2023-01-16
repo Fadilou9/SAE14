@@ -2,63 +2,25 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <title>{% block title %}Welcome!{% endblock %}</title>
-    <link
-      rel="icon"
-      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>🤩</text></svg>"
-    />
+    <title>{% block title %}{% endblock %}</title>    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://bootswatch.com/5/quartz/bootstrap.min.css"
-    />
-    {# feuilles de styles #}
-    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" />
-    {% block stylesheet %} {% endblock %}
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
-    {# fichiers js #}
-    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
-    {% block javascripts %} {% endblock %}
-    <script src="{{ asset('assets/js/script.js') }}"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    {% block stylesheet %}
+      
+    {% endblock %}
   </head>
   <body>
-    <style>
-      body {
-        background-image: src=
-          "{{ asset('public/images_de_mon_site/background.webp') }}";
-      }
-    </style>
-    <nav
-      class="cc-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand text-uppercase mx-4 py-3 fw-bolder" href="#"
-          >MFF</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item pe-4">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Accueil</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <header>
+
+    </header>
     {% block header %}
-    {{ include("partial/_header.html.twig") }}
+
     {% endblock %} {% block body %} {% endblock %}
+
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
   </body>
 </html>

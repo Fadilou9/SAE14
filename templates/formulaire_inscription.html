@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand">Formulaire d'inscription</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>  
+    <p>
+    <form action="/" method="post">
+        <p>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+        </p>
+        <p>
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required>
+        </p>
+        <p>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+        <label for="mdp">Mot de passe :</label>
+        <input type="password" id="mdp" name="mdp" required>
+        </p>
+        <p>
+        <label for="mdp2">Confirmer le mot de passe :</label>
+        <input type="password" id="mdp2" name="mdp2" required>
+        </p>
+        <a href="/"><input type="submit" value="S'inscrire"></a>
+    </form>
+    </p>
+  </body>
+</html>

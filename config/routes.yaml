@@ -1,3 +1,6 @@
 controllers:
-    resource: ../src/Controller/
-    type: attribute
+  resource: ../src/Controller/
+  type: attribute
+ok:
+  path: /templates
+  controller: App\Controller\DefaultController::ok

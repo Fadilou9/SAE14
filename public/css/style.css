@@ -1,0 +1,17 @@
+
+.nav-link{
+  color: white !important;
+}
+.nav-link:hover{
+  color: rgb(202, 202, 202) !important;
+}
+.navbar{
+  padding: 20px !important;
+}
+.taille1{
+  font-size: 1.5em !important;
+  font-family: "Manrope", sans-serif !important;
+}
+.color1{
+  color: darkblue !important;
+}
