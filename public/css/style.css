@@ -1,17 +1,27 @@
 
 .nav-link{
   color: white !important;
+  font-size: 1.2em !important;
 }
 .nav-link:hover{
   color: rgb(202, 202, 202) !important;
 }
 .navbar{
-  padding: 20px !important;
+  padding: 17px !important;
+  color: antiquewhite !important;
 }
 .taille1{
-  font-size: 1.5em !important;
+  font-size: 1.4em !important;
   font-family: "Manrope", sans-serif !important;
 }
-.color1{
-  color: darkblue !important;
+
+h1{
+  color: rgb(37, 37, 54) !important;
+}
+body {
+   /* background-image: url('https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg'); */
+  
+  }
+p{
+  font-size: 1.4em;
 }

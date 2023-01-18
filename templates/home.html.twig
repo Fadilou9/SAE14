@@ -6,21 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Accueil</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" /> 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet"/>
-    {{ include('partial/_header.html') }}
+    {{ include('partial/_header.html.twig') }}
   </head>
-  <body class="taille1">
-      <h1 class="color1" > <strong>Bienvenu sur ma page</strong></h1>
+  <body>
+      <h1><strong>Bienvenu sur ma page</strong></h1>
       <p>
         Je m'appelle <strong>M.Fadilou Fall</strong>, je suis étudiant en
         <strong>BUT</strong> réseau et télécommunication (<strong>RT</strong>) à
         l'IUT Jean Monnet de Roanne.
       </p>
+
+      <div>
+        <img src="https://www.promeo-formation.fr/sites/default/files/styles/max_650x650/public/2019-12/informatique_0.jpg?itok=8x-ZFPut" alt="test">
+      </div>
       <hr class="my-4" />
       <p>Pour commencer, veillez-vous rendre sur la page d'inscription.</p>
       <a class="btn btn-dark bg-black btn-lg" href="formulaire_inscription" role="button">S'inscrire</a>
+      
   </body>
 </html>
