@@ -5,8 +5,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <body class="image1">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container-fluid">
         <a class="navbar-brand">Formulaire d'inscription</a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,8 +14,10 @@
         </button>
       </div>
     </nav>  
+
     <p class="taille1">
-    <form action="/" method="post">
+    <form action="moncv" method="post">
+        <strong><p>Pour continuer, veillez remplir les cases suivantes:</p></strong>
         <p>
         <label for="nom"><strong>Nom </strong>:</label>
         <input type="text" id="nom" name="nom" required>
@@ -36,7 +38,7 @@
         <label for="mdp2"><strong>Confirmer le mot de passe</strong> :</label>
         <input type="password" id="mdp2" name="mdp2" required>
         </p>
-        <a href="/"><input type="submit" value="S'inscrire"></a>
+        <input type="submit" value="S'inscrire"></a>
     </form>
     </p>
   </body>
