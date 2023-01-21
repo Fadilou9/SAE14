@@ -32,5 +32,12 @@ class FadilouController extends AbstractController
         'controller_name' => 'FadilouController',
     ]);
     }
+    #[Route('/contact', name: 'app_Fadilou3')]
+    public function contact(): Response
+    {
+        return $this->render('contact.html.twig',[
+        'controller_name' => 'FadilouController',
+    ]);
+    }
 
 }

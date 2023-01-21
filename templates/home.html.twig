@@ -12,15 +12,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet"/>
     {{ include('partial/_header.html.twig') }}
   </head>
-  <body class="image1">
-      <h1><strong>Bienvenu sur ma page</strong></h1>
-      <p>
-        Je m'appelle <strong>M.Fadilou Fall</strong>, je suis étudiant en
-        <strong>BUT</strong> réseau et télécommunication (<strong>RT</strong>) à
-        l'IUT Jean Monnet de Roanne.
+  
+  <body class="image3">
+    <script>
+            var images = ["images_de_mon_site/image2.jpg","images_de_mon_site/image3.jpg"];
+            var i = 0;
+
+            function changeBackground() {
+              document.body.style.backgroundImage = "url(" + images[i] + ")";
+              i = (i + 1) % images.length;
+            }
+
+            setInterval(changeBackground, 6000);
+      </script>
+      <h1 class="niveau1"><strong>Welcome to Fall Modou Fadilou Space</strong></h1>
+      <p class="element" style="text-align: center;">
+        My name is <strong>M.Fadilou Fall</strong>,I am a passionate first-year student in a degree 
+        in <strong>Network</strong> and <strong>Telecommunications</strong> Engineering, ready to learn and put my knowledge into practice 
+        to contribute to the development of information technology.
       </p>
-      <hr class="my-4" />
-      <p>Pour commencer, veillez-vous rendre sur la page d'inscription.</p>
-      <a class="btn btn-dark bg-primary btn-lg" href="formulaire_inscription" role="button">S'inscrire</a>
+      <p style="font-size: medium;">
+        Name: Fall<br> First name: Modou Fadilou<br>Phone: +33 6 98 31 90 46 <br>Address: 10 Rue des Ecoliers, 42300, Roanne <br>
+        University email address: <a href="modou.fadilou.fall@etu.univ-st-etienne.fr"></a>modou.fadilou.fall@etu.univ-st-etienne.fr <br>
+      </p>
+  
+      
   </body>
 </html>

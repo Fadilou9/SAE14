@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="niveau1">Mes-Loisirs</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+   {{ include('partial/_header2.html.twig') }}
+</head>
+<body class="image2">
+
+    <script>
+            var images = ["https://img.freepik.com/vecteurs-libre/illustration-stade-football-football-realiste_52683-60377.jpg?w=826&t=st=1674310843~exp=1674311443~hmac=113396bff00e54e755060b8fa944a5f58d79bac4a78cc6bb817908e8748d8d00  ",
+            "https://img.freepik.com/photos-gratuite/vue-configuration-du-controleur-du-clavier-jeu-au-neon-eclaire_23-2149529357.jpg?w=740&t=st=1674310757~exp=1674311357~hmac=42008b887edf43554b7b02458834ff1b76a0d2691155e3ca6acecb5a284d86a5",
+            "https://photos.sporteed.fr/sports/illustrations/web/77-5f219d843236d.jpg"];
+            var i = 0;
+
+            function changeBackground() {
+              document.body.style.backgroundImage = "url(" + images[i] + ")";
+              i = (i + 1) % images.length;
+            }
+
+            setInterval(changeBackground, 6000);
+      </script>
+
+
+    {# <div style="display: flex;"> #}
+        <table style="display: inline-block;">
+    <!-- Contenu du premier tableau -->
+         <div class="card text-white bg-foot " style="max-width: 40rem;">
+            <div class="card-header" _msthash="1664806" _msttexthash="106691">Le Football</div>
+                <div class="card-body">
+                <p class="card-text " _msthash="1914861" _msttexthash="7954739">C'est un sport collectif qui se joue avec un ballon 
+                    sphérique entre deux équipes de onze joueurs. Elles s'opposent sur un terrain rectangulaire équipé d'un but à chaque 
+                    extrémité.<br>A ce jour, le meilleur joueur de football se nomme Messi avec à sa disposition sept ballon d'Or.
+                </p>
+                </div>
+            </div>
+
+        <table style="display: inline-block;">
+    <!-- Contenu du premier tableau -->
+         <div class="card text-white bg-karaté " style="max-width: 50rem;">
+            <div class="card-header" _msthash="1664806" _msttexthash="106691">Le Karaté</div>
+                <div class="card-body">
+                <p class="card-text " _msthash="1914861" _msttexthash="7954739">C'est un art martial originaire d'Okinawa, au Japon.
+                     Il a été développé à partir de diverses techniques de combats traditionnelles de cette région.Il est basé sur l'utilisation 
+                     des mains et des pieds pour frapper, donner des coups de poing, des coups de pieds, des coups de coude, des coups de genou, des projections, des prises et des immobilisations.<br>
+                    Le Karaté se pratique généralement en tenue d'entraînement appelée "gi" ou "dobok" qui est composé d'un pantalon et d'un haut.
+                     Il est divisé en plusieurs disciplines : le karaté-dô, le karaté-shotokan, le karaté-goju-ryu, le karaté-shito-ryu, le karaté-wado-ryu, le karaté-shukokai, etc.
+                </p>
+                </div>
+            </div>
+
+        <table style="display: inline-block;">
+    <!-- Contenu du premier tableau -->
+         <div class="card text-white bg-jeux " style="max-width: 50rem;">
+            <div class="card-header" _msthash="1664806" _msttexthash="106691">Jeux Vidéos</div>
+                <div class="card-body">
+                <p class="card-text " _msthash="1914861" _msttexthash="7954739">
+                    J'adore les jeux vidéo surtout les jeux d'équipes comme PUBG, FIFA, Sonic ...<br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    
+                </p>
+                </div>
+            </div>
+
+
+</body>
+</html>
