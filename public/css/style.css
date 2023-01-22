@@ -52,6 +52,15 @@ h1{
   font-size: 1.2em !important;
   font-family: "Manrope", sans-serif !important;
 }
+.image4{
+  background-image: url('https://img.freepik.com/vecteurs-libre/concept-cybersecurite_53876-93472.jpg?w=740&t=st=1674348918~exp=1674349518~hmac=cffb3a695031f49f413f71a8c5303e7e677a380088650f75b2e849ef5e10421a');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-size: 1.2em !important;
+  font-family: "Manrope", sans-serif !important;
+}
 
 
 a{
@@ -142,5 +151,15 @@ a{
   position: absolute;
   top: 130%;
   left: 0%;
+  
+}
+.bg-kar1{
+  /* background-image: url('https://img.freepik.com/photos-gratuite/combattants-karate_654080-1356.jpg?w=740&t=st=1674307720~exp=1674308320~hmac=6d283ddf72d3b32180d6e931a6457ecbbb4dbb2a9486fe69a3d5eca031aa15b9'); */
+  background-color: rgb(48, 48, 228);
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  position: absolute;
+  top: 70%;
+  right:5%;
   
 }

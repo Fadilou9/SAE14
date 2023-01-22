@@ -39,5 +39,12 @@ class FadilouController extends AbstractController
         'controller_name' => 'FadilouController',
     ]);
     }
+    #[Route('/mon_portfolio', name: 'app_Fadilou4')]
+    public function portfolio(): Response
+    {
+        return $this->render('portfolio.html.twig',[
+        'controller_name' => 'FadilouController',
+    ]);
+    }
 
 }
