@@ -153,13 +153,4 @@ a{
   left: 0%;
   
 }
-.bg-kar1{
-  /* background-image: url('https://img.freepik.com/photos-gratuite/combattants-karate_654080-1356.jpg?w=740&t=st=1674307720~exp=1674308320~hmac=6d283ddf72d3b32180d6e931a6457ecbbb4dbb2a9486fe69a3d5eca031aa15b9'); */
-  background-color: rgb(48, 48, 228);
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  position: absolute;
-  top: 70%;
-  right:5%;
-  
-}
+
