@@ -21,7 +21,7 @@ h1{
   font-size: 2em;
   /* text-align: center; */
   text-shadow: 6px 6px 0px black;
-  text-align: center;
+  text-align: left;
   padding: 0.2em;
   color: aliceblue;
 }
@@ -75,6 +75,7 @@ a{
     */
     /* border-left: 5px #187498 solid; */
     padding: 100px;
+    color: #187498 !important;
 
 }
 .element1 {
