@@ -19,11 +19,12 @@ h1{
 }
 .niveau1{
   font-size: 2em;
-  /* text-align: center; */
+  text-align: center;
   text-shadow: 6px 6px 0px black;
-  text-align: left;
+  /* text-align: center; */
   padding: 0.2em;
   color: aliceblue;
+  
 }
 .image1{
   background-image: url('https://img.freepik.com/photos-gratuite/organisation-journee-education-table-espace-copie_23-2148721266.jpg?w=826&t=st=1674120483~exp=1674121083~hmac=a5212861225dc6c67409e5ecc4a5e2dce22232354b1bb4f04adf6bf9d2b24bf4');
@@ -73,9 +74,8 @@ a{
     /*background-color: skyblue;
     *//*opacity: 90%;
     */
-    /* border-left: 5px #187498 solid; */
+    border-left: 5px #187498 solid;
     padding: 100px;
-    color: #187498 !important;
 
 }
 .element1 {
